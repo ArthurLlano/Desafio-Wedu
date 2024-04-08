@@ -1,0 +1,28 @@
+:root {
+  --alert-color-green: #22C55E;
+  --alert-color-red: #DC2626;
+  --alert-color-yellow: #FACC15;
+  --font-color-gray: #A8A29E;
+  --background-color: #75716f;
+  --glass: #EBE5E0;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: list-item;
+  height: 97%;
+  width: 97%;
+  border-radius: 2rem;
+  backdrop-filter: blur(2px);
+  background-color: var(--glass);
+  opacity: 80%;
+  overflow-y: auto;
+}

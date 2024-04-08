@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root {
+    --font-color: #0C0A09;
+    --alert-color-green: #22C55E;
+    --alert-color-red: #DC2626;
+    --alert-color-yellow: #FACC15;
+}
+
+.Dashboard {
+    gap: 10px;
+    width: 103%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+    padding-bottom: 0.2rem;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+    background-color: #D5BDAA;
+}
+
+.CompactCard {
+    display: flex;
+    flex: 1;
+    width: 100% !important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    padding: 1rem;
+}
+
+.CompactCard:hover {
+    opacity: 80%;
+}
+
+.grafico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.CircularProgressbar {
+    width: 5.2rem !important;
+    overflow: visible;
+    padding-left: 0.3rem;
+}
+
+.CircularProgressbar-path {
+    stroke-width: 10px !important;
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.216));
+}
+
+.CircularProgressbar-trail {
+    display: none;
+}
+
+.CircularProgressbar-text {
+    fill: black !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 3rem;
+}
+
+.titulodiv {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.titulodapg {
+    font-size: 50px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    color: #653C1B;
+}
+
+.conteudo svg {
+    margin-bottom: 0.3rem;
+    width: 2rem;
+}
+
+.conteudo p {
+    font-size: 18px;
+    display: flex;
+    color: var(--font-color);
+    align-items: start;
+    justify-content: start;
+    font-family: "Inter", sans-serif;
+    justify-items: center;
+}
+
+.expanded .conteudo p {
+    display: none;
+    font-size: 14px;
+}
+
+.expanded .titulo {
+    display: none;
+}
+
+.grafico h2 {
+    font-size: 18px !important;
+    color: #4ADE80;
+    color: var(--font-color);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.216);
+    font-family: "Inter", sans-serif;
+}
+
+h3 {
+    font-size: 24px !important;
+    font-size: 28px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    color: var(--font-color);
+}
+
+
+.detalhes {
+    color: #0C0A09;
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+.detalhe-titulo {
+    font-weight: bolder;
+}
+
+.detalhe-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalhe-subtitulo {
+    font-weight: 700;
+}
+
+.detalhe-subtitulo p {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.4rem;
+}
+
+.detalhe-item {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.detalhe-item p {
+    padding: 0.4rem;
+}
+
+.porcentagem {
+    font-size: 1.5rem;
+    display: flex;
+    color: #22C55E;
+    flex-direction: column;
+}
+
+.porcentagem p {
+    padding: 1.3rem;
+}
